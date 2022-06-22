@@ -1,9 +1,9 @@
 import psycopg2
 
 con = psycopg2.connect(
-  database="agava", 
+  database="netology_db", 
   user="postgres",
-  password = "15PfVtxfybt")
+  password = "postgres")
 
 with con.cursor() as cur:
         # cur.execute("""drop table phone;""")
